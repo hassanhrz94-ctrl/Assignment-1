@@ -8,13 +8,45 @@ body {
     color: #333;
 }
 
+
+.early-access{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    padding: 8px 12px;
+    border-radius: 1000px;
+    border: 1px solid white;
+    background-color: #f0f0f0;
+}
+.access{
+    color:#2ecc71;
+    font-size: 16px;
+    font-weight: 600;
+}
+.access:hover{
+    color: green;
+}
+.icon-place{
+    color: #30B868;
+}
+
 .container {
     max-width: 1100px;
     margin: 0 auto;
     padding: 0 20px;
 }
+.container .bit{
+width: 229px;
+height: 36px;
+    border-radius: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 12px 8px 12px;
+}
 
-/* NAVIGATION */
+
 header {
     background: white;
     padding: 20px 0;
@@ -37,11 +69,16 @@ nav {
     list-style: none;
 }
 
+.nav-links:hover{
+    background-color:goldenrod;
+}
+
 .nav-links li a {
     color: black;
     text-decoration: none;
     margin: 0 15px;
     font-size: 0.9rem;}
+    
     .main {
         width: 1600px;
         height: 674px;
@@ -52,6 +89,7 @@ nav {
     color: white;
     text-align: center;
     padding: 100px 0;
+    
 }
 
 .main h1 {
@@ -71,13 +109,17 @@ nav {
     cursor: pointer;
     font-weight: 600;
     border: none;
-    /* transition: 0.3s; */
+    
 }
 
 .btn-primary {
     background: #30B868;
     color: white;
+   
     
+}
+.btn-primary:hover {
+    background-color:green;
 }
  .right{
     width: 20px;
@@ -94,31 +136,39 @@ nav {
     text-align: center;
 }
 
+
 .section-header { margin-bottom: 50px; }
 
 .feature-note {
     gap: 24px;
     display: flex;
-    border-radius: 20px;
+    border-radius: 8px;
 }
 
 .feature-card {
     padding: 20px;
-    transition: 0.3s;
-    
+    gap: 30;
+
 }
 
 .icon{
-    width: 32x;
-    height: 32px;
+    width: 60px;
+    height: 60px;
     background: #ffeded;
     border-radius: 50%;
     margin: 0 auto 15px;
     border: 2px solid #e74c3c; 
-    background-color: #F95555
+    background-color: #F95555;
+    
+}
+.icon:hover{
+    background-color: cyan;
 }
 .second-brain {
     padding: 80px 0;
+}
+.brain-text h4{
+    color: #2ecc71;
 }
 
 .brain-content {
@@ -149,25 +199,59 @@ nav {
 
 .ready-box {
     background: #f9fbfd;
-    padding: 60px;
+    padding: 80px 40px 80px 40px;
     text-align: center;
     border-radius: 15px;
+    
 }
-footer {
-    background: #0b1120;
-    color: #999;
-    padding: 40px 0;
+.ready-box h2{
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 10px;
+
+}
+.ready-container P{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
 }
 
-.container-footer{
+.footer-container{
+    background-color: #0d1117;
+    color: white;
+    padding: 120px 120px 30px 120px;
+    font-family: sans-serif;
+}
+.footer-top{
     display: flex;
     justify-content: space-between;
-    gap: 80;
+    align-items: flex-start;
+    margin: 40px;
 }
-.center{
+.social-link-section p{
+    font-size: 18px;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+.icons{
+    display: flex;
+    gap: 16
+}
+.icons :hover{
+    color: rgb(0, 17, 255);
+    
+}
+.footer-divider{
+    border: 0;
+    border-top: 1px solid #30363d;
+    margin-bottom: 30px;
+}
+.bottom{
     text-align: center;
+    font-size: 14px;
+    line-height: 24px;
 }
-
 
 
 
